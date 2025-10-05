@@ -64,6 +64,20 @@ results = pd.DataFrame({
     'Testing Accuracy': [rf_test_acc, ada_test_acc, xgb_test_acc]
 })
 
-print("Model Performance Comparison:")
-print(results)
+# print("Model Performance Comparison:")
+# print(results)
+
+# print("Model Performance Comparison:\n")
+
+# print("Random Forest:")
+# print("  Training Accuracy:", rf_train_acc)
+# print("  Testing Accuracy :", rf_test_acc)
+
+# print("\nAdaBoost:")
+# print("  Training Accuracy:", ada_train_acc)
+# print("  Testing Accuracy :", ada_test_acc)
+
+# print("\nXGBoost:")
+# print("  Training Accuracy:", xgb_train_acc)
+# print("  Testing Accuracy :", xgb_test_acc)
 
